@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  background: grey url('/chalkboard.jpg') no-repeat fixed center;
+}
+
+.ta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.tb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: blue
+}
+
+.ba {
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  color: red;
+  background-image: url('redBtn.png');
+  height: 300px;
+  width: 300px;
+}
+
+.bb {
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+  color: blue;
+  background-image: url('blueBtn.png');
+  height: 300px;
+  width: 300px;
+}
+
+.activeButton {
+  bottom: 0 !important;
+  background-color:orange;
+}
+
+#manageBtns {
+  position: relative;
+  top: 50vh;
+  bottom: 50vh;
+  left: auto;
+  right: auto;
+}
+
+#loadingSpinner {
+  height: 100vh;
+  background-image: url('http://unakravets.com/images/loading.gif') no-repeat center;
+}
