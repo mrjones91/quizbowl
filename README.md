@@ -8,3 +8,4 @@ Currently only acts as a single user scorekeeper. Plans to:
 <li> multiple games per user</li>
 <li> clean up UI</li>
 </ul>
+** Updated 5/4/23 @ 11:11
